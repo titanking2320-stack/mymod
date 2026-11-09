@@ -1,0 +1,17 @@
+{
+  "screen.vanillatogglekeybind.config.title": "When vanilla mode is enabled:",
+  "text.vanillatogglekeybind.config.short.bob": "Bob view %s",
+  "text.vanillatogglekeybind.config.short.fov": "FOV %s",
+  "text.vanillatogglekeybind.config.short.suppress": "Particles %s",
+  "text.vanillatogglekeybind.config.short.appleskin": "Hide AppleSkin %s",
+  "text.vanillatogglekeybind.config.state.on": "On",
+  "text.vanillatogglekeybind.config.state.off": "Off",
+  "text.vanillatogglekeybind.config.particles_hint": "%s suppressed",
+  "text.vanillatogglekeybind.config.appleskin_hint": "On hides the AppleSkin saturation overlay while vanilla mode is active.",
+  "text.vanillatogglekeybind.config.section.pvp": "PvP mode (clean mode)",
+  "text.vanillatogglekeybind.config.section.vanilla": "When vanilla mode is on",
+  "text.vanillatogglekeybind.config.button.reset": "Reset defaults",
+  "text.vanillatoggle.toggle.on": "Vanilla mode on",
+  "text.vanillatoggle.toggle.off": "Vanilla mode off",
+  "key.vanillatoggle.toggle": "Vanilla Toggle"
+}

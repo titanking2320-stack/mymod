@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "vanillatogglekeybind",
+  "version": "${version}",
+  "name": "vanillaTogglekeybind",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.coopfrey.vanillatogglekeybind.client.VanillatogglekeybindDataGenerator"
+    ],
+    "client": [
+      "com.coopfrey.vanillatogglekeybind.client.VanillatogglekeybindClient"
+    ],
+    "modmenu": [
+      "com.coopfrey.vanillatogglekeybind.client.VanillaToggleModMenu"
+    ],
+    "main": [
+      "com.coopfrey.vanillatogglekeybind.Vanillatogglekeybind"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "vanillatogglekeybind.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "fabric-api": "*",
+    "minecraft": "26.2",
+    "java": ">=25"
+  }
+}
